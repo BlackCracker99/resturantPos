@@ -75,6 +75,19 @@
   <ItemGroup>
     <Compile Include="controllers\authController.cs" />
     <Compile Include="controllers\dbController.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="utils\Helpers.cs" />
+    <Compile Include="utils\Validations.cs" />
+    <Compile Include="views\AddNewCatergory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\AddNewCatergory.Designer.cs">
+      <DependentUpon>AddNewCatergory.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\CashierForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="views\AddNewCatergory.resx">
+      <DependentUpon>AddNewCatergory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\CashierForm.resx">
       <DependentUpon>CashierForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,13 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -119,6 +131,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\category.png" />
+    <None Include="Resources\icons8-food-50.png" />
+    <None Include="Resources\sm-bill.png" />
+    <None Include="Resources\sm-food.png" />
+    <None Include="Resources\category1.png" />
+    <None Include="Resources\icons8-category-58.png" />
+    <None Include="Resources\searcher.gif" />
     <Content Include="resturentPos.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

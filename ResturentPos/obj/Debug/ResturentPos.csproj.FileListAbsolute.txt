@@ -4,7 +4,6 @@ C:\Users\ACER\source\repos\ResturentPos\ResturentPos\bin\Debug\ResturentPos.pdb
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\bin\Debug\MetroFramework.Design.dll
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\bin\Debug\MetroFramework.dll
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\ACER\source\repos\ResturentPos\ResturentPos\obj\Debug\ResturentPos.csprojAssemblyReference.cache
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\obj\Debug\ResturentPos.Properties.Resources.resources
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\obj\Debug\ResturentPos.csproj.GenerateResource.cache
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\obj\Debug\ResturentPos.csproj.CoreCompileInputs.cache
@@ -15,3 +14,5 @@ C:\Users\ACER\source\repos\ResturentPos\ResturentPos\obj\Debug\ResturentPos.Logi
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\bin\Debug\resturentPos.mdf
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\bin\Debug\resturentPos_log.ldf
 C:\Users\ACER\source\repos\ResturentPos\ResturentPos\obj\Debug\ResturentPos.views.CashierForm.resources
+C:\Users\ACER\source\repos\ResturentPos\ResturentPos\obj\Debug\ResturentPos.csprojAssemblyReference.cache
+C:\Users\ACER\source\repos\ResturentPos\ResturentPos\obj\Debug\ResturentPos.views.AddNewCatergory.resources

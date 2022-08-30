@@ -17,6 +17,10 @@ namespace ResturentPos
         //auth controller instance
         authController verify = new authController();
 
+        //cashier form instance
+        CashierForm cashierForm = new CashierForm();
+        //Login loginForm = new Login();
+
         public Login()
         {
             InitializeComponent();
@@ -24,7 +28,7 @@ namespace ResturentPos
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         
@@ -48,10 +52,8 @@ namespace ResturentPos
                     if (type == "cashier")
                     {
                         //show cashier interface
-                        Console.WriteLine("you will go to cashier menu");
-
-                        CashierForm cashier = new CashierForm();
-                        cashier.ShowDialog();
+                        cashierForm.ShowDialog();
+                        this.Close();
                     }
                     else if (type == "kitchen")
                     {

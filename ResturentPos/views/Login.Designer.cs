@@ -31,6 +31,14 @@
             this.tbUserName = new MetroFramework.Controls.MetroTextBox();
             this.tbPassword = new MetroFramework.Controls.MetroTextBox();
             this.btnLogin = new MetroFramework.Controls.MetroButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.metroPanelLeft = new MetroFramework.Controls.MetroPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.metroPanelLeft.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbUserName
@@ -48,7 +56,7 @@
             this.tbUserName.CustomButton.UseSelectable = true;
             this.tbUserName.CustomButton.Visible = false;
             this.tbUserName.Lines = new string[0];
-            this.tbUserName.Location = new System.Drawing.Point(238, 109);
+            this.tbUserName.Location = new System.Drawing.Point(445, 236);
             this.tbUserName.MaxLength = 32767;
             this.tbUserName.Name = "tbUserName";
             this.tbUserName.PasswordChar = '\0';
@@ -82,7 +90,7 @@
             this.tbPassword.CustomButton.UseSelectable = true;
             this.tbPassword.CustomButton.Visible = false;
             this.tbPassword.Lines = new string[0];
-            this.tbPassword.Location = new System.Drawing.Point(238, 157);
+            this.tbPassword.Location = new System.Drawing.Point(445, 284);
             this.tbPassword.MaxLength = 32767;
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.PasswordChar = '●';
@@ -104,30 +112,108 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(297, 220);
+            this.btnLogin.Location = new System.Drawing.Point(445, 347);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(147, 23);
+            this.btnLogin.Size = new System.Drawing.Size(264, 23);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.btnLogin.UseSelectable = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
+            this.label4.Location = new System.Drawing.Point(549, 44);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 19);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Login";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ResturentPos.Properties.Resources.user;
+            this.pictureBox1.Location = new System.Drawing.Point(522, 94);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 99);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // metroPanelLeft
+            // 
+            this.metroPanelLeft.BackColor = System.Drawing.Color.Silver;
+            this.metroPanelLeft.BackgroundImage = global::ResturentPos.Properties.Resources.logo;
+            this.metroPanelLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.metroPanelLeft.Controls.Add(this.label3);
+            this.metroPanelLeft.Controls.Add(this.label2);
+            this.metroPanelLeft.Controls.Add(this.label1);
+            this.metroPanelLeft.HorizontalScrollbarBarColor = true;
+            this.metroPanelLeft.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanelLeft.HorizontalScrollbarSize = 10;
+            this.metroPanelLeft.Location = new System.Drawing.Point(0, 5);
+            this.metroPanelLeft.Name = "metroPanelLeft";
+            this.metroPanelLeft.Size = new System.Drawing.Size(365, 496);
+            this.metroPanelLeft.TabIndex = 3;
+            this.metroPanelLeft.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroPanelLeft.VerticalScrollbarBarColor = true;
+            this.metroPanelLeft.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanelLeft.VerticalScrollbarSize = 10;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(100, 457);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(162, 19);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Developed By : Dilshan";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(124, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 19);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "For Resturants";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(26, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(312, 57);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Welcome To Modern Point Of Sales Solutions\r\n\r\n\r\n";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 350);
+            this.ClientSize = new System.Drawing.Size(800, 501);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.metroPanelLeft);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.tbUserName);
             this.Name = "Login";
+            this.Resizable = false;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Style = MetroFramework.MetroColorStyle.Default;
-            this.Text = "Login";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.Login_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.metroPanelLeft.ResumeLayout(false);
+            this.metroPanelLeft.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -136,6 +222,12 @@
         private MetroFramework.Controls.MetroTextBox tbUserName;
         private MetroFramework.Controls.MetroTextBox tbPassword;
         private MetroFramework.Controls.MetroButton btnLogin;
+        private MetroFramework.Controls.MetroPanel metroPanelLeft;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
